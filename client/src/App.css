@@ -31,12 +31,15 @@ input {
   padding: 15px;
   margin: 5px;
   overflow-x: hidden;
+  border: 3px solid #F7567C;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .task span {
   color: #F7567C;
+  font-size: 25px;
+  
 }
 
 .icon {
@@ -50,11 +53,11 @@ article {
 
 .edit-todo {
   width: 85%;
-  font-size: 16px;
+  font-size: 20px;
   color: #F7567C;
   background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #FFFFFF;
+  /* border: none; */
+  border: 3px solid #F7567C;
 }
 
 .button {
@@ -72,7 +75,7 @@ article {
 
 .button.selected {
   color: #FFF;
-  background-color: #6c6777;
+  background-color: #F7567C;
 }
 
 .button.clear {
