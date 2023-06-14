@@ -25,7 +25,7 @@ const Todo = ({ todo }) => {
       onClick={() => dispatch(toggleTodo(todo._id))}
       style={{
         textDecoration: todo?.done ? "line-through" : "",
-        color: todo?.done ? "#bdc3c7" : "#34495e",
+        color: todo?.done ? "#F7567C" : "#34495e",
       }}
       data-testid="todo-test"
     >

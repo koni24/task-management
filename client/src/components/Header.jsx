@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
         <header>
-            <h1>TodoList</h1>
+            <h1>Task Manager</h1>
         </header>
     )
 }

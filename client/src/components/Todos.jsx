@@ -44,7 +44,7 @@ export const Todos = () => {
 
         {todos.some((todo) => todo.done) ? (
           <button onClick={removeDoneTodos} className="button clear">
-            Remove Done Todos
+            Delete Completed Task
           </button>
         ) : null}
       </div>
